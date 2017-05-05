@@ -1,0 +1,174 @@
+/*
+   Justin C's Webfolio Styleshet
+   Filename: styles.css
+   Author: Justin Crabtree
+   Date:   3.26.17
+ */
+
+
+ /* Body */
+body {
+  background-color: rgb(51, 51, 102);
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.container {
+  width:80%;
+  margin:auto;
+  position: fixed;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  border-radius: 5px;
+  padding: 5px;
+  }
+header {
+  background-image:url(images/headerimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 10px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: rgb(81, 89, 135);
+  text-align: center;
+  text-shadow: -1px 0 #cecece, 0 1px #cecece, 1px 0 black, 0 -1px #cecece;
+  border: 2px orange double;
+}
+header h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+  background-image: url(images/navbar.jpg);
+  background-position: center;
+  background-size: contain;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 5px;
+}
+nav li {
+  display: inline;
+  text-align: center;
+  margin: 5%;
+  margin-top: 50%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 1.5em;
+}
+ul {
+    margin: auto;
+}
+ol {
+  list-style-type:none;
+  display: inline;
+}
+li {
+  text-align: center;
+}
+
+/* links */
+a:link {
+   text-decoration: none;
+   letter-spacing:3px;
+   color: rgb(184, 179, 206);
+   font-size: 0.9em;
+}
+a:hover, nav.sitenavigation a:focus {
+   color: ivory;
+}
+a:visited {
+    color: rgb(184, 179, 206);
+}
+
+/* Main Content */
+h3 {
+  margin: auto;
+  border-top: 1px white solid;
+}
+
+article {
+  background-color: rgba(48, 39, 89, 0.8);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 7px;
+  border: 2px orange double;
+  max-width: 100%;
+}
+article p {
+  border-left: 0.4em orange solid;
+  margin-top: 0;
+  padding-left: 0.4em;
+  margin-left: 0.8em;
+  margin-right: 0.5em;
+  font-size: 25px;
+}
+
+/*  Footer */
+footer {
+border-top: 5px orange dotted;
+color: rgb(42, 42, 71);
+text-shadow: 1px 1px 3px white;
+vertical-align: bottom;
+background-color: rgba(48, 39, 89, 0.4);
+font-family: 'Source Sans Pro', sans-serif;
+clear:both;
+}
+
+ /* ~``    Page-Specific Content   ``~  */
+
+  /*  *** USERNAME STUFF ->on index.html  *** */
+section a:link {
+   text-decoration: none;
+   color: rgb(184, 179, 206);
+   font-size: 0.9em;
+}
+.username {
+  color: rgb(184, 179, 206);
+  font-size: 1.3em;
+}
+.usrdate {
+  color: rgb(150, 139, 198);
+  font-size: 1em;
+  border-top: 1px white solid;
+}
+ /* ** Profile Picture Settings ->index.html ** */
+.textwrap {
+  max-width: 15%;
+  float: left;
+  border: 1px white solid;
+  margin: 0.5em 1em 0em 0.8em;
+  clear: left;
+}
+.clearfix:after{
+  content:" ";
+  visibility: hidden;
+  display: block;
+  height:0;
+  clear: both;
+}
+  /*  ** Picture Settings ->user.html **  */
+.bigpic{ /* this one also on->author.html*/
+  display: block;
+  margin: 3% auto;
+  border-top:1px solid orange;
+  border-left:1px solid orange;
+  box-shadow: 5px 6px 5px black;
+}
+.lilpicl {
+    width: 49%;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+.lilpicr {
+    width: 49%;
+    margin: auto;
+    float: right;
+    text-align: center;
+}
